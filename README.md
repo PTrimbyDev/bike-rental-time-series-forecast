@@ -77,10 +77,18 @@ The project followed a structured time series analysis workflow:
 
 ---
 
+## Interpreting the Forecast
+
+The 30-day projection is a model-based estimate, not a guarantee of future demand. Its prediction intervals widen with the forecast horizon, signalling greater uncertainty further from the observed data.
+
+The model reflects the historical Capital Bikeshare dataset and its documented weekly seasonal pattern. Forecasts for other periods or operating environments would require further validation.
+
+---
+
 ## Repository Contents
 
-- `Forecasting_Daily_Bike_Rental_Demand.Rmd`
-- `Forecasting_Daily_Bike_Rental_Demand.html`
+- [`Forecast-daily-bike-rental-demand-using-time-series-models.Rmd`](Forecast-daily-bike-rental-demand-using-time-series-models.Rmd)
+- [`Forecast-daily-bike-rental-demand-using-time-series-models.html`](Forecast-daily-bike-rental-demand-using-time-series-models.html)
 - `day.csv`
 
 ---
